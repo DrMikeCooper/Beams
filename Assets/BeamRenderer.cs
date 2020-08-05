@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
+// this class sits next to a LineRenderer and moves it start and end points to match
+// a pair of given transforms
 [RequireComponent(typeof(LineRenderer))]
 public class BeamRenderer : MonoBehaviour
 {
